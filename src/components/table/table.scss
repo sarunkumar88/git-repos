@@ -1,0 +1,21 @@
+.table {
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    td, th {
+        padding: 10px;
+    }
+
+    tbody>tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    tbody>tr:nth-of-type(even) {
+        background-color: #fff;
+    }
+}
+
+.red_heart {
+    background: url('../../assets/images/red_heart.png') no-repeat;
+}
